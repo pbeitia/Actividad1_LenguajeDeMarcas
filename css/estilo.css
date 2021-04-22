@@ -2,6 +2,7 @@ body{
   margin: 50px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(241, 239, 239);
+  font-size: large;
 }
 
 
@@ -15,25 +16,34 @@ body{
 
 #ofertas{
   margin-top: 50px;
-  height: 90%;
-  width: 90%;
 }
 
 #primerarticulo{
+  height: 350px;
+  width: 60%;
   padding: 20px;
-  float: left;
-  background-color: rgb(0, 2, 100);
-  color: aliceblue;
+  float: right;
+  color: rgb(0, 2, 100);
 }
 
 #promo{
-  margin-right: 20px;
-  width: 25%;
-  height: 25%;
-  float: right;
+  margin-left: 20px;
+  width: 600px;
+  height: 400px;
+  float: left;
   border: rgb(0, 2, 100) 3px solid;
 }
 
+#descuento{
+  font-size: x-large;
+  font-weight: bold;
+  text-decoration-line: underline;
+  color: #fbac5c;
+}
+
+.linea{
+  color: #fbac5c;
+}
 
 li {
   float: left;
