@@ -1,10 +1,10 @@
+/*Estilo General*/
 body{
   margin: 50px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(241, 239, 239);
   font-size: large;
 }
-
 
 #barra{
   list-style-type: none;
@@ -13,6 +13,31 @@ body{
   overflow: hidden;
   background-color: rgb(0, 2, 100);
   }
+
+  li {
+    float: left;
+    margin: 10px;
+  }
+    
+  li a {
+    font-size: x-large;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+    
+  li a:hover {
+    background-color: rgb(0, 2, 121);
+  }
+
+
+/*ESTILO DE LA PÁGINA DE INICIO*/
+#fotogrande{
+  height: 50%;
+  width: 100%;
+}
 
 #ofertas{
   margin-top: 50px;
@@ -28,7 +53,7 @@ body{
 
 #promo{
   margin-left: 20px;
-  width: 600px;
+  width: 33%;
   height: 400px;
   float: left;
   border: rgb(0, 2, 100) 3px solid;
@@ -41,25 +66,5 @@ body{
   color: #fbac5c;
 }
 
-.linea{
-  color: #fbac5c;
-}
 
-li {
-  float: left;
-  margin: 10px;
-}
-  
-li a {
-  font-size: x-large;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-  
-li a:hover {
-  background-color: rgb(0, 2, 121);
-}
   
