@@ -1,47 +1,55 @@
 body{
-    margin: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(241, 239, 239);
+  margin: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(241, 239, 239);
 }
 
 
 #barra{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(0, 2, 100);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 2, 100);
   }
-  
+
+#ofertas{
+  margin-top: 50px;
+  height: 90%;
+  width: 90%;
+}
+
 #primerarticulo{
-    padding: 20px;
-    margin-top: 50px;
-    background-color: rgb(0, 2, 100);
-    color: aliceblue;
+  padding: 20px;
+  float: left;
+  background-color: rgb(0, 2, 100);
+  color: aliceblue;
 }
 
 #promo{
-    width: 20%;
-    height: 20%;
+  margin-right: 20px;
+  width: 25%;
+  height: 25%;
+  float: right;
+  border: rgb(0, 2, 100) 3px solid;
 }
 
 
-  li {
-    float: left;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
+li {
+  float: left;
+  margin: 10px;
+}
   
-  li a {
-    font-size: x-large;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+li a {
+  font-size: x-large;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
   
-  li a:hover {
-    background-color: rgb(0, 2, 121);
-  }
+li a:hover {
+  background-color: rgb(0, 2, 121);
+}
   
