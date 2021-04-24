@@ -94,5 +94,22 @@
         margin-left: 20px;
     }
 
-
   
+
+/*ESTILO DE LA PÁGINA DE LOCALIZACIÓN*/
+    #primerarticulolocalizacion{
+      float: left;
+      height: 350px;
+      width: 60%;
+      padding: 20px;
+      color: rgb(0, 2, 100);
+    }
+
+    #mapa{
+      margin-top: 40px;
+    }
+
+    .iconoslocalizacion{
+      width: 7%;
+      height: 19%;
+    }
