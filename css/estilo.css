@@ -6,6 +6,7 @@
     font-size: large;
   }
 
+/*Estilo de la barra de navegación*/
   #barra{
     list-style-type: none;
     margin: 0;
@@ -39,36 +40,58 @@
     width: 100%;
   }
 
-  #ofertas{
-    margin-top: 50px;
-  }
+  /*Primera parte de bienvenida*/
+    #bienvenidos{
+      margin-top: 40px;
+    }
 
-  #primerarticulo{
-    height: 350px;
-    width: 60%;
-    padding: 20px;
-    float: right;
-    color: rgb(0, 2, 100);
-  }
+    #primerarticulo{
+      float: left;
+      height: 350px;
+      width: 60%;
+      padding: 20px;
+      color: rgb(0, 2, 100);
+    }
 
-  #promo{
-    margin-left: 20px;
-    width: 33%;
-    height: 400px;
-    float: left;
-    border: rgb(0, 2, 100) 3px solid;
-  }
+    #familiafoto{
+      margin-left: 20px;
+      width: 33%;
+      height: 350px;
+      float: right;
+      border: rgb(0, 2, 100) 3px solid;
+    }
+  
+  /*Segunda parte de ofertas*/
+    #ofertas{
+      margin-top: 10px;
+    }
 
-  #descuento{
-    font-size: x-large;
-    font-weight: bold;
-    text-decoration-line: underline;
-    color: #fbac5c;
-  }
+    #segundoarticulo{
+      height: 350px;
+      width: 60%;
+      padding: 20px;
+      float: right;
+      color: rgb(0, 2, 100);
+    }
+
+    #promo{
+      margin-left: 20px;
+      width: 33%;
+      height: 400px;
+      float: left;
+      border: rgb(0, 2, 100) 3px solid;
+    }
+
+    #descuento{
+      font-size: x-large;
+      font-weight: bold;
+      text-decoration-line: underline;
+      color: #fbac5c;
+    }
 
     #aclaracion{
-      margin-top: 27%;
-      margin-left: 20px;
+        margin-top: 47%;
+        margin-left: 20px;
     }
 
 
