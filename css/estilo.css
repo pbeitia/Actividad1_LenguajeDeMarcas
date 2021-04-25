@@ -1,5 +1,5 @@
 /*Estilo General*/
-  body{
+   body{
     margin: 50px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(241, 239, 239);
@@ -20,11 +20,11 @@
     }
       
     li a {
-      font-size: x-large;
-      display: block;
+      font-size: 115%;
+      display: inline-block;
       color: white;
       text-align: center;
-      padding: 14px 16px;
+      padding: 10px 16px;
       text-decoration: none;
     }
       
@@ -70,6 +70,81 @@
       margin-top: 27%;
       margin-left: 20px;
     }
+    /*ESTILO DE LA PÁGINA QUIENES SOMOS*/
+    #bodyquienessomos{
+      background-color: rgba(236, 236, 236, 0.863);
+    }
+    #logo{
+      margin-bottom: 3px;
+    }
+    #fotopersonas{
+      height: 20em;
+      width: 100%;
+    }
+    .cajartprin{
+      width: 60%;
+      padding: 10px;
+      border: 5px;
+      margin: 0px;
+      display: inline-block;
+      background-color: white;
+    }
+    
+    .cajartprin2{
+      width: 30%;
+      padding: 10px;
+      border: 5px;
+      margin-left: 20px;
+      display: inline-block;
+      background-color: white;
+    }
 
 
-  
+    .tdderecha{
+      padding-left: 20px;
+    }
+    .calibrijustificado, #nuestrahistoria{
+      color: rgb(0, 2, 100);
+      text-align: justify;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #imagenarticulo{
+      height: 200px;
+      width: 200px;
+    }
+    .imagenlista{
+      list-style-image: url();
+    }
+
+  .degradado{
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#629bc9+0,000264+94,000264+99,000264+100,000264+100 */
+      background: #629bc9; /* Old browsers */
+      background: -moz-linear-gradient(top,  hsla(207,49%,59%,1) 0%, hsla(239,100%,20%,1) 94%, hsla(239,100%,20%,1) 99%, hsla(239,100%,20%,1) 100%, hsla(239,100%,20%,1) 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top,  hsla(207,49%,59%,1) 0%,hsla(239,100%,20%,1) 94%,hsla(239,100%,20%,1) 99%,hsla(239,100%,20%,1) 100%,hsla(239,100%,20%,1) 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom,  hsla(207,49%,59%,1) 0%,hsla(239,100%,20%,1) 94%,hsla(239,100%,20%,1) 99%,hsla(239,100%,20%,1) 100%,hsla(239,100%,20%,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#629bc9', endColorstr='#000264',GradientType=0 ); /* IE6-9 */
+      margin-top: 5px;
+      width: 100%;
+      position: absolute;
+      bottom: 50;
+      border-right: rgb(0, 2, 100);
+  }
+  #imagenfooter{
+      height: 6%;
+      width: 6%;
+      padding-left: 2px;
+      padding-top: 2px;
+      display: inline-block;
+
+  }  
+  #derechosreservados{
+      font-size: 10pt;
+      color: gray;
+
+  }
+  h4{
+    text-align: center;
+    color: rgb(0, 2, 100);
+  }
+
+    
