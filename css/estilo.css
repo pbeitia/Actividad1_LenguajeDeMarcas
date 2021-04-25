@@ -6,6 +6,7 @@
     font-size: large;
   }
 
+/*Estilo de la barra de navegación*/
   #barra{
     list-style-type: none;
     margin: 0;
@@ -39,36 +40,69 @@
     width: 100%;
   }
 
-  #ofertas{
-    margin-top: 50px;
-  }
+  /*Primera parte de bienvenida*/
+    #bienvenidos{
+      margin-top: 40px;
+    }
 
-  #primerarticulo{
-    height: 350px;
-    width: 60%;
-    padding: 20px;
-    float: right;
-    color: rgb(0, 2, 100);
-  }
+    #primerarticuloinicio{
+      float: left;
+      height: 350px;
+      width: 60%;
+      padding: 20px;
+      color: rgb(0, 2, 100);
+    }
 
-  #promo{
-    margin-left: 20px;
-    width: 33%;
-    height: 400px;
-    float: left;
-    border: rgb(0, 2, 100) 3px solid;
-  }
+    #familiafoto{
+      margin-left: 20px;
+      width: 33%;
+      height: 350px;
+      float: right;
+      border: rgb(0, 2, 100) 3px solid;
+    }
+  
+  /*Segunda parte de ofertas*/
+    #ofertas{
+      margin-top: 10px;
+    }
 
-  #descuento{
-    font-size: x-large;
-    font-weight: bold;
-    text-decoration-line: underline;
-    color: #fbac5c;
-  }
+    #segundoarticuloinicio{
+      height: 350px;
+      width: 60%;
+      padding: 20px;
+      float: right;
+      color: rgb(0, 2, 100);
+    }
+
+    #promo{
+      margin-left: 20px;
+      width: 33%;
+      height: 400px;
+      float: left;
+      border: rgb(0, 2, 100) 3px solid;
+    }
+
+    #descuento{
+      font-size: x-large;
+      font-weight: bold;
+      text-decoration-line: underline;
+      color: #fbac5c;
+    }
 
     #aclaracion{
-      margin-top: 27%;
-      margin-left: 20px;
+        margin-top: 47%;
+        margin-left: 20px;
+    }
+
+  
+
+/*ESTILO DE LA PÁGINA DE LOCALIZACIÓN*/
+    #primerarticulolocalizacion{
+      float: left;
+      height: 350px;
+      width: 60%;
+      padding: 20px;
+      color: rgb(0, 2, 100);
     }
     /*ESTILO DE LA PÁGINA QUIENES SOMOS*/
     #bodyquienessomos{
@@ -136,6 +170,7 @@
       padding-top: 2px;
       display: inline-block;
 
+<<<<<<< HEAD
   }  
   #derechosreservados{
       font-size: 10pt;
@@ -148,3 +183,13 @@
   }
 
     
+=======
+    #mapa{
+      margin-top: 40px;
+    }
+
+    .iconoslocalizacion{
+      width: 7%;
+      height: 19%;
+    }
+>>>>>>> b456eb1856dbf5e1b51a697b776ef905fdd426f8
