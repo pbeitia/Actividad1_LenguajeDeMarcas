@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css">
+        <title>DAMascoViajes</title>
+        <link rel="shortcut icon" type="image/jpg" href="src/mini.PNG"/>
+    </head>
+
+    <body>
+        <div id="contenedor">
+            <header style="text-align: left;">
+                <img id="logo" src="src/logo.PNG">
+            </header>
+
+            <br>
+
+            <nav>
+                <ul id="barra">
+                    <li><a class="active" href="#home">Inicio</a></li>
+                    <li><a href="#news">Áreas de actuación</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Publicaciones</a></li>
+                    <li><a href="#">Localización</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="#about">Quienes Somos</a></li>
+                </ul>
+            </nav>
+
+            <form action="/action_page.php">
+                <br/>
+                <label for="fname">Nombre</label>
+                <input type="text" id="fname" name="Nombre" placeholder="Tu nombre..">
+                
+                <br/>
+                
+                <br/>
+                <label for="lname">Apellido</label>
+                <input type="text" id="lname" name="Apellidos" placeholder="Tus apellidos..">
+                <br/>
+
+                <br/>
+                <label for="correo">Correo electronico</label>
+                <input type="text" id="correo" name="Correo" placeholder="Tu correo electronico..">
+                
+                <br/>
+                <hr>  <!-- comentario: para poner una linea -->
+                <br/>
+                <label for="pais">Pais de Origen</label>
+                <select id="pais" name="pais">
+                  <option value="españa2">España</option>
+                  <option value="italia2">Italia</option>
+                  <option value="francia2">Francia</option>
+                  <option value="usa2">USA</option>
+                </select>
+                <br/>
+
+                <br/>
+                <label for="pais1">Pais de destino</label>
+                <select id="pais1" name="pais1">
+                  <option value="españa">España</option>
+                  <option value="italia">Italia</option>
+                  <option value="francia">Francia</option>
+                  <option value="usa">USA</option>
+                </select>
+                <br/>
+                
+                <br/>
+                
+                <label for="obser">Motivo de la consulta: </label>
+                <br />	
+                <textarea rows="5" cols="80" name="obser"></textarea>
+                <br/>
+
+                <br/>
+            <br/>
+            <label for="terminos">Acepta los terminos y condiciones de uso? </label>
+            <br/>	
+            He leido y acepto los terminos de uso <input type="checkbox" name="terminos" value="Y" />
+            <br/>	
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
