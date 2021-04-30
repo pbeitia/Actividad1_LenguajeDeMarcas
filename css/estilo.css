@@ -204,6 +204,64 @@ body{
           }
         }
 
+      /*RESOLUCIÓN PARA IPHONE*/
+        @media screen and (min-width:400px) and (max-width:700PX){
+          body{
+            background-color: aliceblue;
+          }
+
+          #logo{
+            width: 300px;
+          }
+
+          .fila a {
+            font-size: 95%;
+            padding: 3px 7px;
+          }
+
+          /*Primera parte de bienvenida*/
+          #bienvenidos{
+            margin-top: 10px;
+            margin-right: 40px;
+          }
+
+          #primerarticuloinicio{
+            text-align: center;
+            float: none;
+            padding: 20px;
+            color: rgb(0, 2, 100);
+            width: 100%;
+            height: 100%;
+          }
+
+          #familiafoto{
+            width: 100%;
+            height: 100%;
+            float: none;
+            border: rgb(0, 2, 100) 3px solid;
+          }
+
+          #segundoarticuloinicio{
+            text-align: center;
+            float: none;
+            padding: 20px;
+            color: rgb(0, 2, 100);
+            width: 100%;
+            height: 100%;
+          }
+
+          #promo{
+            width: 100%;
+            height: 100%;
+            float: none;
+            border: rgb(0, 2, 100) 3px solid;
+          }
+
+          .degradado{
+            width: 100%;
+            margin-left:22px;
+          }
+        }
 
 /*ESTILO DE LA PÁGINA DE LOCALIZACIÓN*/
   #primerarticulolocalizacion{
