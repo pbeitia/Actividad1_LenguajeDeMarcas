@@ -265,21 +265,141 @@ body{
 
 /*ESTILO DE LA PÁGINA DE LOCALIZACIÓN*/
   #primerarticulolocalizacion{
-    float: left;
     height: 350px;
-    width: 60%;
+    width: 40%;
     padding: 20px;
     color: rgb(0, 2, 100);
   }
 
   #mapa{
-    margin-top: 40px;
+    margin-left: 100px;
+  }
+
+  #colocarmapa{
+    margin-top: 30px;
+    width: 60%;
+    height:450px;
   }
 
   .iconoslocalizacion{
     width: 7%;
     height: 19%;
   }
+
+      /*MONITORES DE MÁS DE 1300PX*/
+
+      @media screen and (min-width: 1300px){
+        body{
+          background-color: aliceblue;
+          margin-top: 20px;
+        }
+        
+        #barra{
+          width: 100%;
+        }
+
+        .fila a{
+          font-size: 100%;
+          display: inline-block;
+          color: white;
+          text-align: center;
+          padding: 3px 7px;
+          text-decoration: none;
+        }
+
+        #primerarticulolocalizacion{
+          float: left;
+        }
+
+        #colocarmapa{
+          float: right;
+          margin-bottom: 60px;
+        }
+      }
+
+        /*MONITORES CON ANCHO entre 900px y 1300px*/
+
+          @media screen and (min-width: 900px) and (max-width:1300px){
+            body{
+              background-color: aqua;
+            }
+
+            #primerarticulolocalizacion{
+              float: left;
+              margin-bottom: 30px;
+            }
+
+            #colocarmapa{
+              float: right;
+              width: 50%;
+              margin-bottom: 60px;
+            }
+
+            .degradado{
+              margin-top: 100px;
+            }
+          }
+        
+        
+        /*REDIMENSIÓN PARA IPAD*/
+        @media screen and (min-width: 700px) and (max-width:900px){
+          body{
+            background-color: aliceblue;
+          }
+
+          #logo{
+            width: 50%;
+          }
+
+          #primerarticulolocalizacion{
+            margin-left: -20px;
+            text-align: center;
+            float: none;
+            padding: 20px;
+            color: rgb(0, 2, 100);
+            width: 100%;
+            height: 100%;
+          }
+
+          #colocarmapa{
+            width: 100%;
+            margin-left: -45px;
+          }
+
+          .degradado{
+            margin-left: 0px;
+          }
+        }
+
+        /*REDIMENSIÓN PARA IPHONE*/
+        @media screen and (min-width:400px) and (max-width:700PX){
+          body{
+            background-color: aliceblue;
+          }
+
+          #logo{
+            width: 70%;
+          }
+
+          #primerarticulolocalizacion{
+            margin-left: -20px;
+            text-align: center;
+            float: none;
+            padding: 20px;
+            color: rgb(0, 2, 100);
+            width: 100%;
+            height: 100%;
+          }
+
+          #colocarmapa{
+            width: 100%;
+            margin-left: -45px;
+          }
+
+          .degradado{
+            margin-left: 0px;
+          }
+        }
 
 /*ESTILO DE LA PÁGINA QUIENES SOMOS*/
 #bodyquienessomos{
