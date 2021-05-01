@@ -2,7 +2,7 @@
 body{
   margin: 50px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(241, 239, 239);
+  background-color: aliceblue;
   font-size: large;
 }
 
@@ -156,6 +156,10 @@ body{
             background-color: aliceblue;
           }
 
+          .fila {
+            margin: 5px;
+          }
+
           .fila a {
             font-size: 95%;
           }
@@ -205,13 +209,17 @@ body{
         }
 
       /*RESOLUCIÓN PARA IPHONE*/
-        @media screen and (min-width:400px) and (max-width:700PX){
+        @media screen and (min-width:100px) and (max-width:700PX){
           body{
             background-color: aliceblue;
           }
 
           #logo{
             width: 300px;
+          }
+
+          .fila {
+            margin: 5px;
           }
 
           .fila a {
@@ -351,6 +359,11 @@ body{
             width: 50%;
           }
 
+          
+          .fila {
+            margin: 5px;
+          }
+
           #primerarticulolocalizacion{
             margin-left: -20px;
             text-align: center;
@@ -377,6 +390,10 @@ body{
             background-color: aliceblue;
           }
 
+          .fila {
+            margin: 5px;
+          }
+          
           #logo{
             width: 70%;
           }
