@@ -649,3 +649,93 @@ body{
     height: 100px; 
     width: 100px;
   }
+
+  /*MONITORES DE MÁS DE 1300PX variable pagina Quienes somos*/
+  @media screen and (min-width:1300px){
+    .cajartprin{
+      width:90%;
+      display: inline-block;
+      margin: auto;
+
+    }
+    table{
+      position: relative;
+    }
+    #imagenarticulo{
+      height: 75%;
+      width: 120%;
+    }
+    .cajartprin2{
+      float: right;
+      width: 90%;
+      height: 100%;
+      margin: auto;
+    }
+    .listaiconos li{
+      width: 33%;
+      margin-top: 15px;
+      text-align: center;
+      color: rgb(0, 2, 100);
+      background-color: green;
+  }
+  /*MONITORES ENTRE 900PX Y 1300PX DE ANCHO fijo*/
+
+  @media screen and (min-width:900px) and (max-width:1300px){
+    .cajartprin{
+      width:90%;
+      display: inline-block;
+      margin: auto;
+
+    }
+    table{
+      position: relative;
+    }
+    #imagenarticulo{
+      height: 75%;
+      width: 120%;
+    }
+    .cajartprin2{
+      float: right;
+      width: 90%;
+      height: 100%;
+      margin: auto;
+    }
+    .listaiconos li{
+      width: 33%;
+      margin-top: 15px;
+      text-align: center;
+      color: rgb(0, 2, 100);
+      background-color: brown;
+    }
+
+  }
+   /*MONITORES ENTRE 700PX Y 900PX DE ANCHO*/
+
+   @media screen and (min-width:700px) and (max-width:900px)  and (orientation: portrait) {
+    .cajartprin{
+      width: 100%;
+      display: block;
+
+    }
+    table{
+      position: relative;
+    }
+    #imagenarticulo{
+      height: 75%;
+      width: 120%;
+    }
+    .cajartprin2{
+      float: none;
+      width: 100%;
+      height: auto;
+      margin-top: 5%;
+      margin-left: 0%;
+      overflow: visible;
+    }
+    .listaiconos li{
+      width: 33em;
+    }
+    .hrverticalazul{
+     display: none;
+    }
+  }
