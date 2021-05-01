@@ -485,3 +485,51 @@ h4{
 text-align: center;
 color: rgb(0, 2, 100);
 }
+
+/*ESTILO DE LA PÁGINA DE CONTACTOS*/
+
+  
+
+  #caja1{
+    position: relative;
+     width: 200px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .fieldset1{
+    
+    background-color: rgb(236, 237, 255);
+    border-width: 4px;
+    width: 500px;
+    height: 200px;
+  }
+
+  .legend1{
+    width:660px;
+    border-color: rgb(0, 0, 0);
+    
+  }
+  
+  #caja2{
+    position: relative;
+    /* top: -235px;
+    left: 900px;*/
+    margin-bottom: 30px;
+    line-height: 2em;
+    
+  }
+  
+  .fieldset2{
+    
+    background-color: rgb(236, 237, 255);
+    border-width: 4px;
+    width: 500px;
+    height: 200x;
+  }
+
+  .legend2{
+    width:660px;
+    border-color: rgb(0, 0, 0);
+    
+  }
