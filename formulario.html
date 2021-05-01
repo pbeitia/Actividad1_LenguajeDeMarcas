@@ -11,6 +11,8 @@
     </head>
 
     <body>
+       
+
         <div id="contenedor">
             <header style="text-align: left;">
                 <img id="logo" src="src/logo.PNG">
@@ -20,70 +22,120 @@
 
             <nav>
                 <ul id="barra">
-                    <li class="fila"><a class="active" href="#home">Inicio</a></li>
-                    <li class="fila"><a href="#news">Áreas de actuación</a></li>
-                    <li class="fila"><a href="#">Noticias</a></li>
-                    <li class="fila"><a href="#">Publicaciones</a></li>
-                    <li class="fila"><a href="#">Localización</a></li>
-                    <li class="fila"><a href="#contact">Contacto</a></li>
-                    <li class="fila"><a href="#about">Quienes Somos</a></li>
+                    <li><a class="active" href="#home">Inicio</a></li>
+                    <li><a href="#news">Áreas de actuación</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Publicaciones</a></li>
+                    <li><a href="#">Localización</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="#about">Quienes Somos</a></li>
                 </ul>
             </nav>
 
-            <form action="/action_page.php">
-                <br/>
-                <label for="fname">Nombre</label>
-                <input type="text" id="fname" name="Nombre" placeholder="Tu nombre..">
-                
-                <br/>
-                
-                <br/>
-                <label for="lname">Apellido</label>
-                <input type="text" id="lname" name="Apellidos" placeholder="Tus apellidos..">
-                <br/>
+            <br>
+        </div>
 
-                <br/>
-                <label for="correo">Correo electronico</label>
-                <input type="text" id="correo" name="Correo" placeholder="Tu correo electronico..">
-                
-                <br/>
-                <hr>  <!-- comentario: para poner una linea -->
-                <br/>
-                <label for="pais">Pais de Origen</label>
-                <select id="pais" name="pais">
-                  <option value="españa2">España</option>
-                  <option value="italia2">Italia</option>
-                  <option value="francia2">Francia</option>
-                  <option value="usa2">USA</option>
-                </select>
-                <br/>
+        
+        <div id="introduccion">
+                    <h2>¡Bienvenido!<hr></h2>
+                    <p>Desde este apartado de la web puedes ponerte en contacto con nosotros.</p>
+                    <p>Simplemente rellenalos campos de debajo y nosostros nos pondremos en contacto contigo.</p>
+        </div>
 
-                <br/>
-                <label for="pais1">Pais de destino</label>
-                <select id="pais1" name="pais1">
-                  <option value="españa">España</option>
-                  <option value="italia">Italia</option>
-                  <option value="francia">Francia</option>
-                  <option value="usa">USA</option>
-                </select>
-                <br/>
-                
-                <br/>
-                
-                <label for="obser">Motivo de la consulta: </label>
-                <br />	
-                <textarea rows="5" cols="80" name="obser"></textarea>
-                <br/>
 
-                <br/>
-            <br/>
-            <label for="terminos">Acepta los terminos y condiciones de uso? </label>
-            <br/>	
-            He leido y acepto los terminos de uso <input type="checkbox" name="terminos" value="Y" />
-            <br/>	
+        <div id="caja1">
+            <fieldset class="fieldset1" ><legend >Datos personales:</legend class="legend1">
+                <form action="procesarPeticion.jsp" method="get" >
+                  
 
-                <input type="submit" value="Submit">
-            </form>
+                
+                    <section id="nombreForm"><!-- nombre -->
+                        <br/>
+                        <label for="fname">Nombre</label>
+                        <input type="text" id="fname" name="Nombre" placeholder="Tu nombre..">
+                    </section>
+
+                    
+                    
+                    
+                    <section id="apellidoForm"> <!-- apellidos -->
+                        <br/>
+                        <label for="lname">Apellido</label>
+                        <input type="text" id="lname" name="Apellidos" placeholder="Tus apellidos..">
+                    </section>
+
+                
+                    
+
+                    <section id="correoForm"> <!-- Correo -->
+                        <br/>
+                        <label for="correo">Correo electronico</label>
+                        <input type="text" id="correo" name="Correo" placeholder="Tu correo electronico..">
+                    </section>
+                    
+                    <section id="telefonoForm"><!-- telefono -->
+                        <br/>
+                        <label for="tlf">número de telefono</label>
+                        <input type="text" id="tlf" name="telefono" placeholder="Tu numero de telefono..">
+                    </section>
+                </form>
+            </fieldset> 
+
+            <br>
+        </div>
+
+        <div id="caja2">
+
+            <fieldset class="fieldset2"><legend>Datos viaje:</legend class="legend2
+                ">
+                <form action="procesarPeticion.jsp" method="get" >
+                    <section id="PaisOForm"> <!-- pais de origen -->
+                        <label for="pais">Pais de Origen</label>
+                        <select id="pais" name="pais">
+                        <option value="españa2">España</option>
+                        <option value="italia2">Italia</option>
+                        <option value="francia2">Francia</option>
+                        <option value="usa2">USA</option>
+                        </select>
+                    </section>
+                     
+
+
+
+                    <section id="PaisDForm"> <!-- pais de destino -->
+                        <label for="pais1">Pais de destino</label>
+                        <select id="pais1" name="pais1">
+                        <option value="españa">España</option>
+                        <option value="italia">Italia</option>
+                        <option value="francia">Francia</option>
+                        <option value="usa">USA</option>
+                    </select>
+                
+
+
+
+                    <section id="MotivoForm"> <!-- Motivo de la consulta -->
+                        <label for="obser">Motivo de la consulta: </label>
+                        <br />	
+                        <textarea rows="5" cols="80" name="obser"></textarea>
+                    </select>
+
+                
+
+
+                    <section id="TermsForm"> <!-- Terminos y condiciones -->
+                        <label for="terminos">Acepta los terminos y condiciones de uso? </label>
+                        <br/>	
+                        He leido y acepto los terminos de uso <input type="checkbox" name="terminos" value="Y" />
+                        <input type="submit" value="Submit">
+                    </select>
+                
+                
+
+                         
+                </form>
+            </fieldset> 
+            
         </div>
     </body>
 </html>
