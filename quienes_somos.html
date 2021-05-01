@@ -4,102 +4,123 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/estilo.css">
+        <!--Esta hoja de estilo es de la pagina fontawasome facilitada para la práctica-->
         <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
         <title>Quiénes somos</title>
     </head>
-    <body id=bodyquienessomos>
+    <body id=body>
         <div id="contenedor">
             <header style="text-align: left;">
                 <img id="logo" src="src/logo.png" alt="logo DAMascoViajes">
-                <!--Pendiente añadir numero telefono y otros elementos-->
+            <!--Pendiente añadir numero telefono y otros elementos-->
             </header>
             <nav>
                 <ul id="barra">
-                    <li><a href="Inicio.html#home">Inicio</a></li>
-                    <li><a href="Areas Actuacion.html">Areas de actuación</a></li>
-                    <li><a href="">Noticias</a></li>
-                    <li><a href="Publicaciones.html">Publicaciones</a></li>
-                    <li><a href="Localizacion.html">Localización</a></li>
-                    <li><a href="">Contacto</a></li>
-                    <li><a href="quienes_somos.html">Quiénes Somos</a></li>
+                    <div>
+                        <li class="fila"><a href="Inicio.html#home">Inicio</a></li>
+                        <li class="fila"><a href="Areas Actuacion.html">Areas de actuación</a></li>
+                        <li class="fila"><a href="Noticias.html">Noticias</a></li>
+                        <li class="fila"><a href="Publicaciones.html">Publicaciones</a></li>
+                        <li class="fila"><a href="Localizacion.html">Localización</a></li>
+                        <li class="fila"><a href="">Contacto</a></li>
+                        <li class="fila"><a href="quienes_somos.html">Quiénes Somos</a></li>
+                    </div>
                 </ul>
             </nav>
-            <!--Primera sección para imagen principal-->
-            <section>
-                <img id="fotopersonas" src="src/Quienes somos/personas.png" alt="imagen principal">
-            </section>
-            <!--Segunda seccion para cajas con los articulos-->
+            <img id="fotopersonas" src="src/Quienes somos/personas.png" alt="imagen principal">
+            <!--Primera seccion para cajas con los articulos-->
             <section>
                 <header>
                     <h1 id="nuestrahistoria">Nuestra Historia</h1>
                     <hr>
                 </header>
-            <!--Div para la caja principal-->
+                <!--Div para la caja principal-->
                 <div class="cajartprin">
-            <!--Primer articulo que describe la historia-->
-                <article>
-            <!--En este div toda la letra es Calibri, justificada y azul-->
-                    <div class="calibrijustificado">
-                    <p>Lorem fistrum va usté muy cargadoo a gramenawer no te 
-                        digo trigo por no llamarte Rodrigor a wan jarl a wan. Ese que llega hasta luego 
-                        Lucas quietooor a gramenawer se calle ustée no puedor a gramenawer caballo blanco
-                         caballo negroorl qué dise usteer. Benemeritaar condemor llevame al sircoo qué 
-                         dise usteer diodenoo te va a hasé pupitaa
-                    </p>
-            <!--Tabla dentro de la primera caja-->
-                    <table>
-                        <tr>
-                            <td><img id="imagenarticulo" src="src/Quienes somos/imagen pequeña articulo1.png" alt="imagen art"></td>
-                            <td class="tdderecha">
-                                <h5>Bienvenido al Chiquito Ipsum</h5>
-                                <p>Lorem fistrum nisi commodo reprehenderit qui está la cosa muy malar esse. 
-                                    Ut voluptate ex ese pedazo de esse. Velit diodenoo quis qué dise usteer
-                                     tiene musho peligro de la pradera
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><img id="imagenarticulo" src="src/Quienes somos/imagen pequeña articulo2.png" alt="imagen art"></td>
-                            <td class="tdderecha">
-                                <h5>Bienvenido al Chiquito Ipsum</h5>
-                                <p>Lorem fistrum nisi commodo reprehenderit qui está la cosa muy malar esse. 
-                                    Ut voluptate ex ese pedazo de esse. Velit diodenoo quis qué dise usteer
-                                     tiene musho peligro de la pradera
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><img id="imagenarticulo" src="src/Quienes somos/imagen pequeña articulo3.png" alt="imagen art"></td>
-                            <td class="tdderecha">
-                                <h5>Bienvenido al Chiquito Ipsum</h5>
-                                <p>Lorem fistrum nisi commodo reprehenderit qui está la cosa muy malar esse. 
-                                    Ut voluptate ex ese pedazo de esse. Velit diodenoo quis qué dise usteer
-                                     tiene musho peligro de la pradera
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <li><i class="fas fa-plane-departure">Lorem fistrum benemeritaar</i></li>
-                                <li><i class="fas fa-hotel">Lorem fistrum benemeritaar</i></li>
-                                <li><i class="fas fa-luggage-cart">Lorem fistrum benemeritaar</i></li>
-                            </td>
-                        </tr>
-                    </table>
-                    </div>
-                </article>
+                <!--Primer articulo que describe la historia-->
+                    <article>
+                    <!--En este div toda la letra es Calibri, justificada y azul-->
+                        <div class="calibrijustificado">
+                            <p>Lorem fistrum va usté muy cargadoo a gramenawer no te 
+                                digo trigo por no llamarte Rodrigor a wan jarl a wan. Ese que llega hasta luego 
+                                Lucas quietooor a gramenawer se calle ustée no puedor a gramenawer caballo blanco
+                                caballo negroorl qué dise usteer. Benemeritaar condemor llevame al sircoo qué 
+                                dise usteer diodenoo te va a hasé pupitaa
+                            </p>
+                     <!--Tabla dentro de la primera caja, alineada a la derecha-->
+                        <table>
+                            <tr>
+                                <td><img id="imagenarticulo" src="src/Quienes somos/imagen pequeña articulo1.png" alt="imagen art1"></td>
+                                <td class="tdderecha">
+                                    <h5>Bienvenido al Chiquito Ipsum</h5>
+                                    <p>Lorem fistrum nisi commodo reprehenderit qui está la cosa muy malar esse. 
+                                        Ut voluptate ex ese pedazo de esse. Velit diodenoo quis qué dise usteer
+                                        tiene musho peligro de la pradera
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img id="imagenarticulo" src="src/Quienes somos/imagen pequeña articulo2.png" alt="imagen art2"></td>
+                                <td class="tdderecha">
+                                    <h5>Bienvenido al Chiquito Ipsum</h5>
+                                    <p>Lorem fistrum nisi commodo reprehenderit qui está la cosa muy malar esse. 
+                                        Ut voluptate ex ese pedazo de esse. Velit diodenoo quis qué dise usteer
+                                        tiene musho peligro de la pradera
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><img id="imagenarticulo" src="src/Quienes somos/imagen pequeña articulo3.png" alt="imagen art3"></td>
+                                <td class="tdderecha">
+                                    <h5>Bienvenido al Chiquito Ipsum</h5>
+                                    <p>Lorem fistrum nisi commodo reprehenderit qui está la cosa muy malar esse. 
+                                        Ut voluptate ex ese pedazo de esse. Velit diodenoo quis qué dise usteer
+                                        tiene musho peligro de la pradera
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                        </div>
+                     </article>
                 </div>
+                <!--Este div es para la aside que muestra una caja a la derecha-->    
                 <div class="cajartprin2">
                  <aside>
-                     <h4>Te va a hasé pupitaa</h4>
-                     <div class="calibrijustificado">
-                         <p>Lorem fistrum a gramenawer pupita no puedor la caidita me cago en tus muelas pupita jarl. Se calle ustée por la gloria de mi madre no puedor diodeno ese pedazo de pecador condemor te va a hasé pupitaa. Diodenoo va usté muy cargadoo tiene musho peligro caballo blanco caballo negroorl papaar papaar al ataquerl. A gramenawer pupita mamaar papaar papaar fistro. Ese pedazo de mamaar va usté muy cargadoo ese que llega quietooor</p>
-                         <img src="src/Quienes somos/images aside.png" alt="imagen aside">
+                    <h4>Te va a hasé pupitaa</h4>
+                    <div class="calibrijustificado">
+                        <p>Lorem fistrum a gramenawer pupita no puedor la caidita me cago en tus muelas 
+                            pupita jarl. Se calle ustée por la gloria de mi madre no puedor diodeno ese 
+                            pedazo de pecador condemor te va a hasé pupitaa. Diodenoo va usté muy cargadoo 
+                            tiene musho peligro caballo blanco caballo negroorl papaar papaar al ataquerl.
+                           </p>
+                        <img class="centrarimagen" src="src/Quienes somos/images aside.png" alt="imagen aside">
+                    </div>
+                    <h4>La caidita la caidita va usté</h4>
+                    <div class="calibrijustificado">
+                        <p>hasta luego Lucas diodenoo no te digo trigo por no llamarte Rodrigor a 
+                            gramenawer benemeritaar. Benemeritaar sexuarl me cago en tus muelas va usté</p>
+                         <img class="centrarimagen" src="src/Quienes somos/vuelo y maletas.png" alt="imagen aside 2">
+                     </div>
+                     <h4>Lorem fistrum está la cosa muy malar</h4>
+                    <div class="calibrijustificado">
+                        <p>Pupita fistro se calle ustée no te digo trigo por no llamarte Rodrigor está la
+                             cosa muy malar diodenoo te va a hasé pupitaa hasta luego Lucas me cago en tus
+                             muelas fistro condemor. Ese que llega papaar papaar papaar papaar va usté muy
+                             cargadoo ahorarr no puedor</p>
+                         <img class="centrarimagen" style="height: 75%; width: 75%;" src="src/Quienes somos/imagenaside3.png" alt="imagen aside 3">
                      </div>
                  </aside>   
                 </div> 
             </section>
-            <br>
+            <section>
+                <div class="listaiconos">
+                    <!--La etiqueta i se ha utilizado para poner los iconos de fontawasome-->
+                    <li><i class="fas fa-plane-departure">Lorem fistrum benemeritaar</i></li>
+                    <hr class="hrverticalazul">
+                    <li><i class="fas fa-hotel">Lorem fistrum benemeritaar</i></li>
+                    <hr class="hrverticalazul">
+                    <li><i class="fas fa-luggage-cart">Lorem fistrum benemeritaar</i></li>
+                </div>
+            </section>
             <footer class="degradado">
                 <p id="derechosreservados"> <img id="imagenfooter" src="src/mini.PNG" alt="logo DAMascoViajes">Todos los derechos reservados. copyright 2021 &copy;</p>        
             </footer>
