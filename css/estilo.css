@@ -472,7 +472,6 @@ body{
     width: 33%;
     height: 740px;
     padding: 10px;
-    border: 5px;
     margin-left: 15px;
     background-color: white;
     overflow: scroll;
@@ -543,6 +542,10 @@ body{
 .centrarimagen{
     display:block;
     margin:auto;
+}
+#imagenavion{
+  height: 75%; 
+  width: 75%;
 }
 /*ESTILO DE LA PÁGINA NOTICIAS*/
 
@@ -651,40 +654,79 @@ body{
   }
 
   /*MONITORES DE MÁS DE 1300PX variable pagina Quienes somos*/
-  @media screen and (min-width:900px) and (max-width:1300px){
+  /*@media screen and (min-width:1300px){
     .listaiconos li{
       width: 20em;
       margin-left: 0px;
       font-size: 90%;
       display: inline;
-      background-color: blueviolet;
+      background-color: rgb(230, 208, 10);
     }
-    .hrverticalazul{
-      display: none;
-     }
-    }
-   /*MONITORES ENTRE 900PX Y 1300PX DE ANCHO fijo*/
+  }*/
 
-  @media screen and (max-width:900px){
-    body{
-      margin: 2%;
+
+
+   /*MONITORES ENTRE 900PX Y 1300PX DE ANCHO fijo*/
+  @media screen and (min-width:900px) and (max-width:1100px) and (max-width:1300px){
+    .fila a {
+      font-size:85%;
     }
-    table{
-      position: relative;
+    .listaiconos li{
+      width: 262px;
+      margin-right: 1px;
+      font-size: 90%;
+    }
+     .hrverticalazul{
+      display: none;
+    }
+    }
+   /*MONITORES ENTRE 700PX Y 900PX DE ANCHO*/
+
+  @media screen and (min-width:700px) and (max-width:900px){
+    body{
+      margin: 5%;
+    }
+    .fila {
+      margin: 2px;
+    }
+    .fila a {
+      font-size: 75%;
+      padding: 6px 4px;
+    }
+    .cajartprin{
+      width: 100%;
+    }
+    #imagenarticulo{
+      height: 75%;
+      width: 90%;
+    }
+    .tdderecha{
+      padding-left: 5%;
     }
     .cajartprin2{
-      height: 680px;
+      width: 100%;
+      height: 100%;
+      margin-left:0%;
+      margin-top: 10px;
+      overflow: visible;
+      float: none;
     }
     #imagenarticulo{
       height: 75%;
       width: 120%;
     }
-    .listaiconos li{
-      width: 25%;
-      font-size: small;
-      background-color: brown;
+    #imagenavion{
+      height: 165px; 
+      width: 280px;
     }
-
+    .listaiconos li{
+      width:0%;
+      margin-left: 20%;
+      font-size: 90%;
+    }
+    .hrverticalazul{
+      display: none;
+    }
   }
    /*MONITORES ENTRE 700PX Y 900PX DE ANCHO*/
 
@@ -701,6 +743,7 @@ body{
       height: 75%;
       width: 120%;
     }
+    
     .cajartprin2{
       float: none;
       width: 100%;
