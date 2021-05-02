@@ -652,3 +652,64 @@ background-color: rgb(217, 233, 243);
   height: 100px; 
   width: 100px;
 }
+
+/*ESTILO DE LAS PÁGINAS ÁREAS DE ACTUACIÓN Y PUBLICACIONES*/
+
+#vuelonacional{
+  height: 80%;
+  width: 80%;
+}
+
+@media screen and (min-width: 1300px){
+  #vuelonacional{
+    height: 60%;
+    width: 60%;
+  }
+}
+
+@media screen and (min-width:100px) and (max-width:700PX){
+  .centro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  #articuloareas{
+    font-size: 90%;
+    display: inline-block;
+    text-align: center;
+    padding: 3px 7px;
+  }
+  #primerapublicacion{
+    font-size: 90%;
+    display: inline-block;
+    text-align: center;
+    padding: 3px 7px;
+  }
+  #segundapublicacion{
+    font-size: 90%;
+    display: inline-block;
+    text-align: center;
+    padding: 3px 7px;
+  }
+  #tercerapublicacion{
+    font-size: 90%;
+    display: inline-block;
+    text-align: center;
+    padding: 3px 7px;
+  }
+  #cuartapublicacion{
+    font-size: 90%;
+    display: inline-block;
+    text-align: center;
+    padding: 3px 7px;
+  }
+}
+
+  #imagenfooter{
+    height: 6%;
+    width: 6%;
+    padding-left: 2px;
+    padding-top: 2px;
+    display: inline-block;
+  }  
