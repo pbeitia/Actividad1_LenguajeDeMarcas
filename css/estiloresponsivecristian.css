@@ -1,0 +1,267 @@
+/*1.- MONITORES DE MÁS DE 1300PX variable pagina Quienes somos*/
+  /*@media screen and (min-width:1300px){
+    .listaiconos li{
+      width: 20em;
+      margin-left: 0px;
+      font-size: 90%;
+      display: inline;
+      background-color: rgb(230, 208, 10);
+    }
+  }*/
+
+
+
+   /*2.- MONITORES ENTRE 900PX Y 1300PX DE ANCHO fijo*/
+   @media screen and (min-width:900px) and (max-width:1100px) and (max-width:1300px){
+    .fila a {
+      font-size:85%;
+    }
+    .listaiconos li{
+      width: 262px;
+      margin-right: 1px;
+      font-size: 90%;
+    }
+     .hrverticalazul{
+      display: none;
+    }
+    }
+   /*3.- MONITORES ENTRE 700PX Y 900PX DE ANCHO*/
+
+  @media screen and (min-width:768px) and (max-width:900px){
+    body{
+      margin: 5%;
+    }
+    .fila {
+      margin: 2px;
+    }
+    .fila a {
+      font-size: 75%;
+      padding: 6px 4px;
+    }
+    .cajartprin{
+      width: 100%;
+    }
+    #imagenarticulo{
+      height: 75%;
+      width: 90%;
+    }
+    .tdderecha{
+      padding-left: 5%;
+    }
+    .cajartprin2{
+      width: 100%;
+      height: 100%;
+      margin-left:0%;
+      margin-top: 10px;
+      overflow: visible;
+      float: none;
+    }
+    #imagenarticulo{
+      height: 75%;
+      width: 120%;
+    }
+    #imagenavion{
+      height: 165px; 
+      width: 280px;
+    }
+    .listaiconos li{
+      width:0%;
+      margin-left: 20%;
+      font-size: 90%;
+    }
+    .hrverticalazul{
+      display: none;
+    }
+  }
+   /*4.- Ipad 768*1024 orientacion vertical*/
+
+   @media screen and (max-width:768px) /*and (orientation: portrait)*/ {
+    body{
+      margin: 5%;
+    }
+    .fila {
+      margin: 2px;
+    }
+    .fila a {
+      font-size: 75%;
+      padding: 6px 4px;
+    }
+    .cajartprin{
+      width: 100%;
+    }
+    #imagenarticulo{
+      height: 75%;
+      width: 90%;
+    }
+    .tdderecha{
+      padding-left: 5%;
+    }
+    .cajartprin2{
+      width: 100%;
+      height: 100%;
+      margin-left:0%;
+      margin-top: 10px;
+      overflow: visible;
+      float: none;
+    }
+    #imagenarticulo{
+      height: 75%;
+      width: 120%;
+    }
+    #imagenavion{
+      height: 165px; 
+      width: 280px;
+    }
+    .listaiconos li{
+      width:0%;
+      margin-left: 20%;
+      font-size: 90%;
+    }
+    .hrverticalazul{
+      display: none;
+    }
+  }
+     /*5.- Ipad 768*1024 orientacion horizontal*/
+
+     @media screen and (max-width:768px) /*and (orientation: landscape)*/ {
+      body{
+        margin: 5%;
+      }
+      .fila {
+        margin: 2px;
+      }
+      .fila a {
+        font-size: 75%;
+        padding: 6px 4px;
+      }
+      .cajartprin{
+        width: 100%;
+      }
+      #imagenarticulo{
+        height: 75%;
+        width: 90%;
+      }
+      .tdderecha{
+        padding-left: 5%;
+      }
+      .cajartprin2{
+        width: 100%;
+        height: 100%;
+        margin-left:0%;
+        margin-top: 10px;
+        overflow: visible;
+        float: none;
+      }
+      #imagenarticulo{
+        height: 75%;
+        width: 120%;
+      }
+      #imagenavion{
+        height: 165px; 
+        width: 280px;
+      }
+      .listaiconos li{
+        width:0%;
+        margin-left: 20%;
+        font-size: 90%;
+      }
+      .hrverticalazul{
+        display: none;
+      }
+    }
+       /*6.- Iphone 414*896 orientacion vertical*/
+
+   @media screen and (max-width:414px) /*and (orientation: portrait)*/ {
+    body{
+      margin: 5%;
+    }
+    .fila {
+      margin: 2px;
+    }
+    .fila a {
+      font-size: 75%;
+      padding: 6px 4px;
+    }
+    .cajartprin{
+      width: 100%;
+    }
+    #imagenarticulo{
+      height: 75%;
+      width: 90%;
+    }
+    .tdderecha{
+      padding-left: 5%;
+    }
+    .cajartprin2{
+      width: 100%;
+      height: 100%;
+      margin-left:0%;
+      margin-top: 10px;
+      overflow: visible;
+      float: none;
+    }
+    #imagenarticulo{
+      height: 75%;
+      width: 120%;
+    }
+    #imagenavion{
+      height: 165px; 
+      width: 280px;
+    }
+    .listaiconos li{
+      width:0%;
+      margin-left: 20%;
+      font-size: 90%;
+    }
+    .hrverticalazul{
+      display: none;
+    }
+  }
+     /* 7.- Iphone 414*896 orientacion horizontal*/
+
+     @media screen and (max-width: 414px) /*and (orientation: landscape)*/ {
+      body{
+        margin: 5%;
+      }
+      .fila {
+        margin: 2px;
+      }
+      .fila a {
+        font-size: 75%;
+        padding: 6px 4px;
+      }
+      .cajartprin{
+        width: 100%;
+      }
+      #imagenarticulo{
+        height: 75%;
+        width: 90%;
+      }
+      .tdderecha{
+        padding-left: 5%;
+      }
+      .cajartprin2{
+        width: 100%;
+        height: 100%;
+        margin-left:0%;
+        margin-top: 10px;
+        overflow: visible;
+        float: none;
+      }
+      #imagenarticulo{
+        height: 75%;
+        width: 120%;
+      }
+      #imagenavion{
+        height: 165px; 
+        width: 280px;
+      }
+      .listaiconos li{
+        width:0%;
+        margin-left: 20%;
+        font-size: 90%;
+      }
+      .hrverticalazul{
+        display: none;
+      }
+    }
