@@ -139,9 +139,6 @@
           font-size: 75%;
           padding: 10px 8px;
         }
-        #fotopersonas{
-            display: none;
-        }
         .cajartprin{
           width: 95%;
         }
@@ -179,12 +176,11 @@
         }
       }
 
-     
        /*6.- Iphone 414*896 orientacion vertical*/
 
    @media screen and (max-width:414px) and (orientation:portrait) {
     body{
-        margin:0%;
+        margin:2%;
       }
       .fila {
         margin: 0%;
@@ -199,6 +195,8 @@
       }
       .cajartprin{
         width: 90%;
+        margin-left: 2%;
+        margin-right: 2%;
       }
       #imagenarticulo{
         height: 75%;
@@ -210,7 +208,8 @@
       .cajartprin2{
         width: 90%;
         height: 100%;
-        margin-left:0%;
+        margin-left:2%;
+        margin-right: 2%;
         margin-top: 10px;
         overflow: visible;
         float: none;
@@ -231,3 +230,51 @@
       }
     }
      /* 7.- Iphone 414*896 orientacion horizontal*/
+
+     @media screen and (max-width:414px) and (orientation: landscape) {
+        body{
+          margin: 2%;
+        }
+        .fila {
+          margin: 0px;
+        }
+        .fila a {
+          font-size: 75%;
+          padding: 10px 8px;
+        }
+        .cajartprin{
+          width: 95%;
+        }
+        #imagenarticulo{
+          height: 75%;
+          width: 90%;
+        }
+        .tdderecha{
+          padding-left: 5%;
+        }
+        .cajartprin2{
+          width: 95%;
+          height: 100%;
+          margin-left:0%;
+          margin-top: 10px;
+          overflow: visible;
+          float: none;
+        }
+        #imagenarticulo{
+          height: 75%;
+          width: 120%;
+        }
+        #imagenavion{
+          height: 165px; 
+          width: 280px;
+        }
+        .listaiconos li{
+            width:0%;
+            margin-left: 25%;
+            transform: translateX(-50px);
+            font-size: 90%;
+          }
+        .hrverticalazul{
+          display: none;
+        }
+      }
