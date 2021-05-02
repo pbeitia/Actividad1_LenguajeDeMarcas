@@ -651,67 +651,44 @@ body{
   }
 
   /*MONITORES DE MÁS DE 1300PX variable pagina Quienes somos*/
-  @media screen and (min-width:1300px){
-    .cajartprin{
-      width:90%;
-      display: inline-block;
-      margin: auto;
-
-    }
-    table{
-      position: relative;
-    }
-    #imagenarticulo{
-      height: 75%;
-      width: 120%;
-    }
-    .cajartprin2{
-      float: right;
-      width: 90%;
-      height: 100%;
-      margin: auto;
-    }
-    .listaiconos li{
-      width: 33%;
-      margin-top: 15px;
-      text-align: center;
-      color: rgb(0, 2, 100);
-      background-color: green;
-  }
-  /*MONITORES ENTRE 900PX Y 1300PX DE ANCHO fijo*/
-
   @media screen and (min-width:900px) and (max-width:1300px){
-    .cajartprin{
-      width:90%;
-      display: inline-block;
-      margin: auto;
+    .listaiconos li{
+      width: 20em;
+      margin-left: 0px;
+      font-size: 90%;
+      display: inline;
+      background-color: blueviolet;
+    }
+    .hrverticalazul{
+      display: none;
+     }
+    }
+   /*MONITORES ENTRE 900PX Y 1300PX DE ANCHO fijo*/
 
+  @media screen and (max-width:900px){
+    body{
+      margin: 2%;
     }
     table{
       position: relative;
+    }
+    .cajartprin2{
+      height: 680px;
     }
     #imagenarticulo{
       height: 75%;
       width: 120%;
     }
-    .cajartprin2{
-      float: right;
-      width: 90%;
-      height: 100%;
-      margin: auto;
-    }
     .listaiconos li{
-      width: 33%;
-      margin-top: 15px;
-      text-align: center;
-      color: rgb(0, 2, 100);
+      width: 25%;
+      font-size: small;
       background-color: brown;
     }
 
   }
    /*MONITORES ENTRE 700PX Y 900PX DE ANCHO*/
 
-   @media screen and (min-width:700px) and (max-width:900px)  and (orientation: portrait) {
+   @media screen and (max-width:700px), (orientation: portrait) {
     .cajartprin{
       width: 100%;
       display: block;
@@ -734,6 +711,7 @@ body{
     }
     .listaiconos li{
       width: 33em;
+      background-color:hotpink;
     }
     .hrverticalazul{
      display: none;
