@@ -1,0 +1,289 @@
+/*Estilo General*/
+body{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 239, 239);
+    font-size: large;
+  }
+  
+  /*Estilo de la barra de navegación*/
+  #barra{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 2, 100);
+    }
+  
+    .fila {
+      float: left;
+      margin: 10px;
+    }
+      
+    .fila a {
+      font-size: 115%;
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 10px 16px;
+      text-decoration: none;
+    }
+      
+    .fila a:hover {
+      background-color: rgb(0, 2, 121);
+    }
+  
+/*ESTILO DE LA PÁGINA DE INICIO*/
+
+#fotogrande{
+    height: 50%;
+    width: 100%;
+  }
+
+/*Primera parte de bienvenida*/
+  #bienvenidos{
+    margin-top: 40px;
+  }
+
+  #primerarticuloinicio{
+    float: left;
+    height: 350px;
+    width: 60%;
+    padding: 20px;
+    color: rgb(0, 2, 100);
+  }
+
+  #familiafoto{
+    margin-left: 20px;
+    width: 33%;
+    height: 350px;
+    float: right;
+    border: rgb(0, 2, 100) 3px solid;
+  }
+
+/*Segunda parte de ofertas*/
+  #ofertas{
+    margin-top: 10px;
+  }
+
+  #segundoarticuloinicio{
+    height: 350px;
+    width: 60%;
+    padding: 20px;
+    float: right;
+    color: rgb(0, 2, 100);
+  }
+
+  #promo{
+    margin-left: 20px;
+    width: 33%;
+    height: 400px;
+    float: left;
+    border: rgb(0, 2, 100) 3px solid;
+  }
+
+  #descuento{
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration-line: underline;
+    color: #fbac5c;
+  }
+  .degradado{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#629bc9+0,000264+94,000264+99,000264+100,000264+100 */
+    background: #629bc9; /* Old browsers */
+    background: -moz-linear-gradient(top,  hsla(207,49%,59%,1) 0%, hsla(239,100%,20%,1) 94%, hsla(239,100%,20%,1) 99%, hsla(239,100%,20%,1) 100%, hsla(239,100%,20%,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  hsla(207,49%,59%,1) 0%,hsla(239,100%,20%,1) 94%,hsla(239,100%,20%,1) 99%,hsla(239,100%,20%,1) 100%,hsla(239,100%,20%,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  hsla(207,49%,59%,1) 0%,hsla(239,100%,20%,1) 94%,hsla(239,100%,20%,1) 99%,hsla(239,100%,20%,1) 100%,hsla(239,100%,20%,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#629bc9', endColorstr='#000264',GradientType=0 ); /* IE6-9 */
+    margin-top: 5px;
+    width: 100%;
+    clear: both;
+    border-right: rgb(0, 2, 100);
+    }
+  
+  #imagenfooter{
+  height: 6%;
+  width: 6%;
+  padding-left: 2px;
+  padding-top: 2px;
+  display: inline-block;
+  
+  <<<<<<< HEAD
+  }  
+  
+  #derechosreservados{
+  font-size: 10pt;
+  color: gray;
+  }
+    /*MONITORES DE MÁS DE 1300PX*/
+
+      @media screen and (min-width: 1300px){
+        #promo{
+          height: 300px;
+        }
+
+        #familiafoto{
+          height: 300px;
+        }
+      }
+
+    /*MONITORES CON ANCHO entre 900px y 1300px*/
+
+      @media screen and (min-width: 900px) and (max-width:1300px){
+        body{
+          background-color: aliceblue;
+          margin: 50px;
+        }
+
+        .fila a{
+          font-size: 100%;
+          display: inline-block;
+          color: white;
+          text-align: center;
+          padding: 3px 7px;
+          text-decoration: none;
+        }
+
+        #primerarticuloinicio{
+          width: 50%;
+        }
+        #segundoarticuloinicio{
+          width: 50%;
+        }
+
+        #promo{
+          width: 40%;
+          height: 50%;
+          margin-top: 5%;
+        }
+
+        #familiafoto{
+          margin-top: 20px;
+          width: 40%;
+          height: 50%;
+        }
+
+        #ofertas{
+          margin-top: 5%;
+          margin-bottom: 20px;
+        }
+
+        #bienvenidos{
+          display: inline-block;
+          margin-top: 20px;
+        }
+      }
+
+    /*RESOLUCIÓN PARA IPAD*/
+
+      @media screen and (min-width:700px) and (max-width:900px){
+          body{
+            background-color: aliceblue;
+          }
+
+          .fila a {
+            font-size: 95%;
+          }
+
+          /*Primera parte de bienvenida*/
+          #bienvenidos{
+            margin-top: 40px;
+            margin-right: 40px;
+          }
+
+          #primerarticuloinicio{
+            text-align: center;
+            float: none;
+            padding: 20px;
+            color: rgb(0, 2, 100);
+            width: 100%;
+            height: 100%;
+          }
+
+          #familiafoto{
+            width: 100%;
+            height: 100%;
+            float: none;
+            border: rgb(0, 2, 100) 3px solid;
+          }
+
+          #segundoarticuloinicio{
+            text-align: center;
+            float: none;
+            padding: 20px;
+            color: rgb(0, 2, 100);
+            width: 100%;
+            height: 100%;
+          }
+
+          #promo{
+            width: 100%;
+            height: 100%;
+            float: none;
+            border: rgb(0, 2, 100) 3px solid;
+          }
+
+          .degradado{
+            width: 100%;
+            margin-left:22px;
+          }
+        }
+
+      /*RESOLUCIÓN PARA IPHONE*/
+        @media screen and (min-width:100px) and (max-width:700PX){
+          body{
+            background-color: aliceblue;
+          }
+
+          #logo{
+            width: 300px;
+          }
+
+          .fila a {
+            font-size: 95%;
+            padding: 3px 7px;
+          }
+
+          /*Primera parte de bienvenida*/
+          #bienvenidos{
+            margin-top: 10px;
+            margin-right: 40px;
+          }
+
+          #primerarticuloinicio{
+            text-align: center;
+            float: none;
+            padding: 20px;
+            color: rgb(0, 2, 100);
+            width: 100%;
+            height: 100%;
+          }
+
+          #familiafoto{
+            width: 100%;
+            height: 100%;
+            float: none;
+            border: rgb(0, 2, 100) 3px solid;
+          }
+
+          #segundoarticuloinicio{
+            text-align: center;
+            float: none;
+            padding: 20px;
+            color: rgb(0, 2, 100);
+            width: 100%;
+            height: 100%;
+          }
+
+          #promo{
+            width: 100%;
+            height: 100%;
+            float: none;
+            border: rgb(0, 2, 100) 3px solid;
+          }
+
+          .degradado{
+            width: 100%;
+            margin-left:22px;
+          }
+        }
