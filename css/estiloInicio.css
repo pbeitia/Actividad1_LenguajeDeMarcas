@@ -6,7 +6,7 @@ body{
     font-size: large;
   }
   
-  /*Estilo de la barra de navegación*/
+    /*Estilo de la barra de navegación*/
     
     header{
       width: 100%;
@@ -47,7 +47,7 @@ body{
     
     .submenu{
       position: absolute;
-      background: rgb(0, 2, 100);
+      background: rgba(0, 2, 100, 0.897);
       width: 120%;
       visibility: hidden;
       opacity: 0;
@@ -55,7 +55,7 @@ body{
     }
     
     .submenu li a{
-      font-size: 115%;
+      font-size: 110%;
       display: block;
       padding: 15px;
       color: #fff;
@@ -65,8 +65,9 @@ body{
     
     .menu li:hover .submenu{
       visibility: visible;
-      opacity: 1;
+      opacity: 100%;
     }
+
 
   
 /*ESTILO DE LA PÁGINA DE INICIO*/
