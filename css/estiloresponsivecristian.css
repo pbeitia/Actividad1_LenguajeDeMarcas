@@ -47,16 +47,11 @@ de pantalla grande.*/
   }
   .primeracaja{
     width: 1150px;
-}
-.terceracaja{
+  }
+  .terceracaja{
      width: 175px;
   }
-  .segundacaja h4{
-    color: rgb(0, 2, 100);
-    text-indent: 5px;
-    text-align: justify;
-    transform: translateY(-150%);
-  }
+
 }
 
    /*3.- MONITORES ENTRE 768PX Y 900PX DE ANCHO*/
@@ -102,34 +97,36 @@ de pantalla grande.*/
     #noticias{
         text-align: center;
     }
-  }
-    /*.articulo1{
-        display: block;
-        position: relative;
-        height: 100%;
-        width: 90%;
-        left:5%;
-        background-color: rgb(217, 233, 243);
+    .articulo1{
+      width: 90%;
+      margin-left: 5%; 
     }
     .articulo2{
-        position: relative;
-        left: 5%;
-        margin-top: 2%;
-        width: 45%;
-    }
+      position: relative;
+      left: 55px;
+      top: 40px;
+      height: 240px;
+      width: 300px;
+    } 
     .articulo3{
-        position: relative;
-        display: inline-block;
-        width: 35%; 
-        height: 15em;   
-    }
+      position: absolute;
+      left: 480px;
+      top:1400px;
+      height: 240px;
+      width: 300px;
+    } 
     #hrpequeño{
-     height: 15em;
-     width: auto;
-     left: 52%;
-     top:173%;
-    }*/
-    
+      display: none;
+    }
+    .primeracaja{
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 20%;
+  }
+  }
+ 
+        
    /*4.- Ipad 768*1024 orientacion vertical*/
 
    @media screen and (max-width:768px) and (orientation: portrait) {
