@@ -5,7 +5,7 @@ de pantalla grande.*/
 
 
 
-   /*2.- MONITORES ENTRE 900PX Y 1300PX DE ANCHO fijo*/
+   /*2.- MONITORES ENTRE 900PX, 1100PX y 1300PX DE ANCHO FIJO PAGINA QUIENES SOMOS*/
    @media screen and (min-width:900px) and (max-width:1100px) and (max-width:1300px){
     .listaiconos li{
       width: 262px;
@@ -14,6 +14,16 @@ de pantalla grande.*/
     }
      .hrverticalazul{
       display: none;
+    }
+    .cajartprin{
+      width: 500px;
+    }
+    .cajartprin2{
+      width: 375px;
+      position: absolute;
+      left: 600px;
+      top: 720px;
+      height: 810px;
     }
   }
 /*2.1 - MONITORES ENTRE 900PX Y 1300PX DE ANCHO FIJO PAGINA NOTICIAS*/
@@ -54,13 +64,6 @@ de pantalla grande.*/
   @media screen and (min-width:768px) and (max-width:900px){
     body{
       margin: 5%;
-    }
-    .fila {
-      margin: 2px;
-    }
-    .fila a {
-      font-size: 75%;
-      padding: 6px 4px;
     }
     .cajartprin{
       width: 100%;
