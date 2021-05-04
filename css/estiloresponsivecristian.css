@@ -7,9 +7,6 @@ de pantalla grande.*/
 
    /*2.- MONITORES ENTRE 900PX Y 1300PX DE ANCHO fijo*/
    @media screen and (min-width:900px) and (max-width:1100px) and (max-width:1300px){
-    .fila a {
-      font-size:85%;
-    }
     .listaiconos li{
       width: 262px;
       margin-right: 1px;
@@ -18,7 +15,40 @@ de pantalla grande.*/
      .hrverticalazul{
       display: none;
     }
-    }
+  }
+/*2.1 - MONITORES ENTRE 900PX Y 1300PX DE ANCHO FIJO PAGINA NOTICIAS*/
+@media screen and (min-width:900px) and (max-width:1300px){
+  .menu{
+    width: 1125px;
+  }
+
+  #fotopersonas{
+    width: 1165px;
+  }
+  .articulo1{
+    width: 760px;
+  }
+  .articulo2, .articulo3{
+    left: 850px;
+    width: 360px;
+  } 
+  #hrpequeño{
+    left: 870px 
+  }
+  .primeracaja{
+    width: 1150px;
+}
+.terceracaja{
+     width: 175px;
+  }
+  .segundacaja h4{
+    color: rgb(0, 2, 100);
+    text-indent: 5px;
+    text-align: justify;
+    transform: translateY(-150%);
+  }
+}
+
    /*3.- MONITORES ENTRE 768PX Y 900PX DE ANCHO*/
 
   @media screen and (min-width:768px) and (max-width:900px){

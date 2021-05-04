@@ -136,10 +136,9 @@
   position: absolute;
   left: 67%;
   top:150%;
-  height: 17em;
+  height: 16em;
   width: 28%;
   background-color: rgb(217, 233, 243);
-  
 } 
 .articulo2 h3, .articulo3 h3{
     text-indent: 10px;
@@ -172,7 +171,7 @@
     width: 100%;
     height: 20%;
     background-color: rgb(217, 233, 243);
-    border: 5px;
+    padding: 5px;
     margin-top: 5px;
     padding: 1%;
 }
@@ -191,7 +190,7 @@
     width: 15%;
     height: 15px;
     top: 75%;
-    left: 83%;
+    left: 80%;
     background-color: rgb(217, 233, 243);
     text-align:end;
     font-size: small;
