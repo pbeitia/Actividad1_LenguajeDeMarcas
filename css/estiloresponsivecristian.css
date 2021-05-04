@@ -1,13 +1,7 @@
-/*1.- MONITORES DE MÁS DE 1300PX variable pagina Quienes somos*/
-  /*@media screen and (min-width:1300px){
-    .listaiconos li{
-      width: 20em;
-      margin-left: 0px;
-      font-size: 90%;
-      display: inline;
-      background-color: rgb(230, 208, 10);
-    }
-  }*/
+/*1.- MONITORES DE MÁS DE 1300PX variable pagina Quienes somos
+
+Para mas de 1300 px lo voy a dejar a dejar igual porque la pagina ha sido diseñada para tamaños
+de pantalla grande.*/
 
 
 
@@ -75,7 +69,8 @@
     #noticias{
         text-align: center;
     }
-    .articulo1{
+  }
+    /*.articulo1{
         display: block;
         position: relative;
         height: 100%;
@@ -100,8 +95,8 @@
      width: auto;
      left: 52%;
      top:173%;
-    }
-}
+    }*/
+    
    /*4.- Ipad 768*1024 orientacion vertical*/
 
    @media screen and (max-width:768px) and (orientation: portrait) {
@@ -157,7 +152,8 @@
     #noticias{
         text-align: center;
     }
-    .articulo1{
+  }
+    /*.articulo1{
         display: block;
         position: relative;
         height: 100%;
@@ -211,8 +207,7 @@
       }
     .terceracaja{
         display: none;
-      }
-}
+      }*/
      /*5.- Ipad 768*1024 orientacion horizontal*/
 
      @media screen and (max-width:768px) and (orientation: landscape) {
@@ -264,7 +259,8 @@
         #noticias{
             text-align: center;
         }
-        .articulo1{
+      }
+       /* .articulo1{
             display: block;
             position: relative;
             height: 100%;
@@ -316,7 +312,7 @@
         .terceracaja{
             display: none;
           }
-      }
+      }*/
 
        /*6.- Iphone 414*896 orientacion vertical*/
 

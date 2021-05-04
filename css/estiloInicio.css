@@ -55,11 +55,10 @@ body{
     }
     
     .submenu li a{
-      font-size: 110%;
+      font-size: 100%;
       display: block;
       padding: 15px;
       color: #fff;
-      font-family: 'Open sans';
       text-decoration: none;
     }
     

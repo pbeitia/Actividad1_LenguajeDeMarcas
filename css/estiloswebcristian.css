@@ -100,14 +100,12 @@
 /*ESTILO DE LA PÁGINA NOTICIAS*/
 
 .articulo1{
-    display: inline-block;
     position: relative;
     height: 100%;
     width: 62.5%;
     background-color: rgb(217, 233, 243);
 }
 .articulo1 img{
-    display: inline-block;
     margin-left: 50px;
     width: 85%;
     height: 400px;
@@ -123,22 +121,19 @@
     padding-left: 7%;
 }
 .articulo2{
-    display: inline-block;
     position: absolute;
     left: 67%;
-    height: 15em;
+    height: 38%;
     width: 28%;
     background-color: rgb(217, 233, 243);
 } 
 .articulo2 img{
-    display: inline-block;
     margin-left: 5%;
     width: 85%;
-    height: 50%;
+    height: 45%;
 }
 .articulo3{
   position: absolute;
-  display: inline-block;
   left: 67%;
   top:150%;
   height: 17em;
@@ -154,6 +149,7 @@
 .articulo2 p, .articulo3 p{
     text-align: justify;
     color: rgb(0, 2, 100);
+    margin-top: 1px;
     padding-right: 7%;
     padding-left: 7%;
     font-size: small;
@@ -173,7 +169,6 @@
 }
 .primeracaja{
     position: relative;
-    display: inline-block;
     width: 100%;
     height: 20%;
     background-color: rgb(217, 233, 243);
@@ -183,7 +178,6 @@
 }
 .segundacaja{
     position: absolute;
-    display: inline-block;
     width: 80%;
     height: 20px;
     padding-left: 5px;
@@ -194,7 +188,6 @@
   }
 .terceracaja{
     position: absolute;
-    display: inline-block;
     width: 15%;
     height: 15px;
     top: 75%;
