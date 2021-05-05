@@ -115,7 +115,10 @@ de pantalla grande.*/
       width: 38%;
     } 
     #hrpequeño{
-      display: none;
+      height: 300px;
+      width: 0px;
+      left: 48.5%;
+      top: 1390px;
     }
     .primeracaja{
       width: 90%;
@@ -200,62 +203,85 @@ de pantalla grande.*/
     #noticias{
         text-align: center;
     }
+    .articulo1{
+      width: 90%;
+      margin-left: 5%; 
+    }
+    .articulo1 img{
+      display: block;
+      margin: auto;
+      width: 90%;
+      height: 300px;
   }
-    /*.articulo1{
-        display: block;
-        position: relative;
-        height: 100%;
-        width: 90%;
-        left:5%;
-        background-color: rgb(217, 233, 243);
-    }
+  .articulo1 h3{
+      text-indent: 10px;
+  }
     .articulo2{
-        position: relative;
-        left: 5%;
-        margin-top: 2%;
-        width: 45%;
-    }
+      position: relative;
+      left: 0px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      width: 90%;
+      margin-left: 5%; 
+    } 
+    .articulo2 img{
+      display: block;
+      margin: auto;
+      width: 85%;
+      height: 45%;
+  }
     .articulo3{
-        position: absolute;
-        display: inline-block;
-        left: 55%;
-        top:173%;
-        width: 35%; 
-        height: 15em;   
+      position: relative;
+      left: 0px;
+      top: 0px;
+      margin-bottom: 2%;
+      margin-left: 5%; 
+      padding-top: 2px;
+      width: 90%;
+      height: 100%;
     }
+    .articulo2 h3, .articulo3 h3{
+      padding-left: 0%;
+      text-align: center;
+  }
+    .articulo3 img{ 
+      float: none;
+      display: block;
+      margin: auto;
+      width: 85%;
+      height: 45%;
+  }
     #hrpequeño{
-     height: 15em;
-     width: auto;
-     left: 52%;
-     top:173%;
-    }
-    .articulo2 img, .articulo3 img{
-        display: none;
+      display: none;
     }
     .primeracaja{
-        position: relative;
-        display: inline-block;
-        width: 100%;
-        height: 20%;
-        background-color: rgb(217, 233, 243);
-        border: 5px;
-        margin-top: 5px;
-        padding: 1%;
+      width: 90%;
+      margin-left: 5%;
+      height: 250px; 
+  }
+  .segundacaja{
+      position: relative;
+      width: 97.5%;
+      left: 0px;
     }
-    .segundacaja{
-        position: absolute;
-        display: inline-block;
-        width: 80%;
-        height: 20px;
-        padding-left: 5px;
-        padding-top: 50px;
-        left: 125px;
-        background-color: rgb(217, 233, 243);
-        text-align: justify;
+    .segundacaja h4{
+      font-size: 15px;
+    }
+  .terceracaja{
+     display: none;
+    }
+    .primeracaja img{
+      position: absolute;
+      top: 32%;
+      left: 13%;
+      height: 60%; 
+      width: 75%;
+    }
+    .degradado{
+        height: 100%;
+        position: relative;
       }
-    .terceracaja{
-        display: none;
-      }*/
+    }
      /*5.- Ipad 768*1024 orientacion horizontal*/
 
      @media screen and (max-width:768px) and (orientation: landscape) {
@@ -305,62 +331,57 @@ de pantalla grande.*/
           display: none;
         }
         #noticias{
-            text-align: center;
-        }
+          text-align: center;
       }
-       /* .articulo1{
-            display: block;
-            position: relative;
-            height: 100%;
-            width: 90%;
-            left:5%;
-            background-color: rgb(217, 233, 243);
+      .articulo1{
+        width: 90%;
+        margin-left: 5%; 
+      }
+      .articulo2{
+        position: relative;
+        left: 4%;
+        width: 40%;
+        margin: 20px;
+      } 
+      .articulo3{
+        position: absolute;
+        left: 50%;
+        top: 1382px;
+        height: 46.5%;
+        width: 38%;
+      } 
+      #hrpequeño{
+        height: 300px;
+        width: 0px;
+        left: 48.5%;
+        top: 1390px;
+      }
+      .primeracaja{
+        width: 90%;
+        margin-left: 5%; 
+    
+    }
+    .segundacaja{
+        width: 70%;
+        padding: 10px 5px;
+        left: 160px;
+        top: 50%;
+      }
+      .segundacaja h4{
+        font-size: 15px;
+      }
+    .terceracaja{
+       display: none;
+      }
+      .primeracaja img{
+        height: 150px; 
+        width: 150px;
+      }
+      .degradado{
+          height: 100%;
+          position: relative;
         }
-        .articulo2{
-            position: relative;
-            left: 5%;
-            margin-top: 2%;
-            width: 45%;
-        }
-        .articulo3{
-            position: absolute;
-            display: inline-block;
-            left: 55%;
-            top:173%;
-            width: 35%; 
-            height: 15em;   
-        }
-        #hrpequeño{
-         height: 15em;
-         width: auto;
-         left: 52%;
-         top:173%;
-        }
-        .primeracaja{
-            position: relative;
-            display: inline-block;
-            width: 100%;
-            height: 20%;
-            background-color: rgb(217, 233, 243);
-            border: 5px;
-            margin-top: 5px;
-            padding: 1%;
-        }
-        .segundacaja{
-            position: absolute;
-            display: inline-block;
-            width: 80%;
-            height: 20px;
-            padding-left: 5px;
-            padding-top: 50px;
-            left: 125px;
-            background-color: rgb(217, 233, 243);
-            text-align: justify;
-          }
-        .terceracaja{
-            display: none;
-          }
-      }*/
+    }
 
        /*6.- Iphone 414*896 orientacion vertical*/
 
