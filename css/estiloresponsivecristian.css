@@ -31,7 +31,6 @@ de pantalla grande.*/
   .menu{
     width: 1125px;
   }
-
   #fotopersonas{
     width: 1165px;
   }
@@ -284,6 +283,10 @@ de pantalla grande.*/
     height: 100%;
     position: relative;
   }
+  .menu > li{
+    width: 100%;
+    text-align: center;
+  }
 }
   /*5.- Ipad 768*1024 orientacion horizontal*/
 
@@ -517,6 +520,10 @@ body{
   .degradado{
     height: 100%;
     position: relative;
+  }
+  .menu > li{
+    width: 100%;
+    text-align: center;
   }
 }
   /* 7.- Iphone 414*896 orientacion horizontal*/
