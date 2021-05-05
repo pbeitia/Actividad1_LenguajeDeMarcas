@@ -5,27 +5,27 @@ de pantalla grande.*/
 
 
 
-   /*2.- MONITORES ENTRE 900PX, 1100PX y 1300PX DE ANCHO FIJO PAGINA QUIENES SOMOS*/
-   @media screen and (min-width:900px) and (max-width:1100px) and (max-width:1300px){
-    .listaiconos li{
-      width: 262px;
-      margin-right: 1px;
-      font-size: 90%;
-    }
-     .hrverticalazul{
-      display: none;
-    }
-    .cajartprin{
-      width: 500px;
-    }
-    .cajartprin2{
-      width: 375px;
-      position: absolute;
-      left: 600px;
-      top: 720px;
-      height: 810px;
-    }
+/*2.- MONITORES ENTRE 900PX, 1100PX y 1300PX DE ANCHO FIJO PAGINA QUIENES SOMOS*/
+@media screen and (min-width:900px) and (max-width:1100px) and (max-width:1300px){
+  .listaiconos li{
+    width: 262px;
+    margin-right: 1px;
+    font-size: 90%;
   }
+  .hrverticalazul{
+    display: none;
+  }
+  .cajartprin{
+    width: 500px;
+  }
+  .cajartprin2{
+    width: 375px;
+    position: absolute;
+    left: 600px;
+    top: 720px;
+    height: 810px;
+  }
+}
 /*2.1 - MONITORES ENTRE 900PX Y 1300PX DE ANCHO FIJO PAGINA NOTICIAS*/
 @media screen and (min-width:900px) and (max-width:1300px){
   .menu{
@@ -49,439 +49,435 @@ de pantalla grande.*/
     width: 1150px;
   }
   .terceracaja{
-     width: 175px;
+    width: 175px;
   }
-
 }
 
-   /*3.- MONITORES ENTRE 768PX Y 900PX DE ANCHO*/
+/*3.- MONITORES ENTRE 768PX Y 900PX DE ANCHO*/
 
-  @media screen and (min-width:768px) and (max-width:900px){
-    body{
-      margin: 5%;
-    }
-    .cajartprin{
-      width: 100%;
-    }
-    #imagenarticulo{
-      height: 75%;
-      width: 90%;
-    }
-    .tdderecha{
-      padding-left: 5%;
-    }
-    .cajartprin2{
-      width: 100%;
-      height: 100%;
-      margin-left:0%;
-      margin-top: 10px;
-      overflow: visible;
-      float: none;
-    }
-    #imagenarticulo{
-      height: 75%;
-      width: 120%;
-    }
-    #imagenavion{
-      height: 165px; 
-      width: 280px;
-    }
-    .listaiconos li{
-      width:0%;
-      margin-left: 20%;
-      font-size: 90%;
-    }
-    .hrverticalazul{
-      display: none;
-    }
-    #noticias{
-        text-align: center;
-    }
-    .articulo1{
-      width: 90%;
-      margin-left: 5%; 
-    }
-    .articulo2{
-      position: relative;
-      left: 4%;
-      width: 40%;
-      margin: 20px;
-    } 
-    .articulo3{
-      position: absolute;
-      left: 50%;
-      top: 1382px;
-      height: 46.5%;
-      width: 38%;
-    } 
-    #hrpequeño{
-      height: 300px;
-      width: 0px;
-      left: 48.5%;
-      top: 1390px;
-    }
-    .primeracaja{
-      width: 90%;
-      margin-left: 5%; 
-  
+@media screen and (min-width:768px) and (max-width:900px){
+  body{
+    margin: 5%;
+  }
+  .cajartprin{
+    width: 100%;
+  }
+  #imagenarticulo{
+    height: 75%;
+    width: 90%;
+  }
+  .tdderecha{
+    padding-left: 5%;
+  }
+  .cajartprin2{
+    width: 100%;
+    height: 100%;
+    margin-left:0%;
+    margin-top: 10px;
+    overflow: visible;
+    float: none;
+  }
+  #imagenarticulo{
+    height: 75%;
+    width: 120%;
+  }
+  #imagenavion{
+    height: 165px; 
+    width: 280px;
+  }
+  .listaiconos li{
+    width:0%;
+    margin-left: 20%;
+    font-size: 90%;
+  }
+  .hrverticalazul{
+    display: none;
+  }
+  #noticias{
+    text-align: center;
+  }
+  .articulo1{
+    width: 90%;
+    margin-left: 5%; 
+  }
+  .articulo2{
+    position: relative;
+    left: 4%;
+    width: 40%;
+    margin: 20px;
+  } 
+  .articulo3{
+    position: absolute;
+    left: 50%;
+    top: 1382px;
+    height: 46.5%;
+    width: 38%;
+  } 
+  #hrpequeño{
+    height: 300px;
+    width: 0px;
+    left: 48.5%;
+    top: 1390px;
+  }
+  .primeracaja{
+    width: 90%;
+    margin-left: 5%; 
   }
   .segundacaja{
-      width: 70%;
-      padding: 10px 5px;
-      left: 160px;
-      top: 50%;
-    }
-    .segundacaja h4{
-      font-size: 15px;
-    }
-  .terceracaja{
-     display: none;
-    }
-    .primeracaja img{
-      height: 150px; 
-      width: 150px;
-    }
-    .degradado{
-        height: 100%;
-        position: relative;
-      }
+    width: 70%;
+    padding: 10px 5px;
+    left: 160px;
+    top: 50%;
   }
- 
-        
-   /*4.- Ipad 768*1024 orientacion vertical*/
-
-   @media screen and (max-width:768px) and (orientation: portrait) {
-    body{
-      margin: 2%;
-    }
-    .fila {
-      margin: 2%;
-      float: none;
-    }
-    .fila a {
-      font-size: 85%;
-      display: block;
-    }
-    #fotopersonas{
-        display: none;
-    }
-    .cajartprin{
-      width: 95%;
-    }
-    #imagenarticulo{
-      height: 75%;
-      width: 90%;
-    }
-    .tdderecha{
-      padding-left: 5%;
-    }
-    .cajartprin2{
-      width: 95%;
+  .segundacaja h4{
+    font-size: 15px;
+  }
+  .terceracaja{
+    display: none;
+  }
+  .primeracaja img{
+    height: 150px; 
+    width: 150px;
+  }
+  .degradado{
       height: 100%;
-      margin-left:0%;
-      margin-top: 10px;
-      overflow: visible;
-      float: none;
+      position: relative;
     }
-    #imagenarticulo{
-      height: 75%;
-      width: 120%;
-    }
-    #imagenavion{
-      height: 165px; 
-      width: 280px;
-    }
-    .listaiconos li{
-        width:0%;
-        margin-left: 25%;
-        transform: translateX(-50px);
-        font-size: 90%;
-      }
-    .hrverticalazul{
+}
+    
+/*4.- Ipad 768*1024 orientacion vertical*/
+
+@media screen and (max-width:768px) and (orientation: portrait) {
+  body{
+    margin: 2%;
+  }
+  .fila {
+    margin: 2%;
+    float: none;
+  }
+  .fila a {
+    font-size: 85%;
+    display: block;
+  }
+  #fotopersonas{
       display: none;
-    }
-    #noticias{
-        text-align: center;
-    }
-    .articulo1{
-      width: 90%;
-      margin-left: 5%; 
-    }
-    .articulo1 img{
-      display: block;
-      margin: auto;
-      width: 90%;
-      height: 300px;
+  }
+  .cajartprin{
+    width: 95%;
+  }
+  #imagenarticulo{
+    height: 75%;
+    width: 90%;
+  }
+  .tdderecha{
+    padding-left: 5%;
+  }
+  .cajartprin2{
+    width: 95%;
+    height: 100%;
+    margin-left:0%;
+    margin-top: 10px;
+    overflow: visible;
+    float: none;
+  }
+  #imagenarticulo{
+    height: 75%;
+    width: 120%;
+  }
+  #imagenavion{
+    height: 165px; 
+    width: 280px;
+  }
+  .listaiconos li{
+    width:0%;
+    margin-left: 25%;
+    transform: translateX(-50px);
+    font-size: 90%;
+  }
+  .hrverticalazul{
+    display: none;
+  }
+  #noticias{
+    text-align: center;
+  }
+  .articulo1{
+    width: 90%;
+    margin-left: 5%; 
+  }
+  .articulo1 img{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 300px;
   }
   .articulo1 h3{
-      text-indent: 10px;
+    text-indent: 10px;
   }
-    .articulo2{
-      position: relative;
-      left: 0px;
-      margin-top: 2%;
-      margin-bottom: 2%;
-      width: 90%;
-      margin-left: 5%; 
-    } 
-    .articulo2 img{
-      display: block;
-      margin: auto;
-      width: 85%;
-      height: 45%;
+  .articulo2{
+    position: relative;
+    left: 0px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 90%;
+    margin-left: 5%; 
+  } 
+  .articulo2 img{
+    display: block;
+    margin: auto;
+    width: 85%;
+    height: 45%;
   }
-    .articulo3{
-      position: relative;
-      left: 0px;
-      top: 0px;
-      margin-bottom: 2%;
-      margin-left: 5%; 
-      padding-top: 2px;
-      width: 90%;
-      height: 100%;
-    }
-    .articulo2 h3, .articulo3 h3{
-      padding-left: 0%;
-      text-align: center;
+  .articulo3{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 2%;
+    margin-left: 5%; 
+    padding-top: 2px;
+    width: 90%;
+    height: 100%;
   }
-    .articulo3 img{ 
-      float: none;
-      display: block;
-      margin: auto;
-      width: 85%;
-      height: 45%;
+  .articulo2 h3, .articulo3 h3{
+    padding-left: 0%;
+    text-align: center;
   }
-    #hrpequeño{
-      display: none;
-    }
-    .primeracaja{
-      width: 90%;
-      margin-left: 5%;
-      height: 250px; 
+  .articulo3 img{ 
+    float: none;
+    display: block;
+    margin: auto;
+    width: 85%;
+    height: 45%;
+  }
+  #hrpequeño{
+    display: none;
+  }
+  .primeracaja{
+    width: 90%;
+    margin-left: 5%;
+    height: 250px; 
   }
   .segundacaja{
-      position: relative;
-      width: 97.5%;
-      left: 0px;
-    }
-    .segundacaja h4{
-      font-size: 15px;
-    }
+    position: relative;
+    width: 97.5%;
+    left: 0px;
+  }
+  .segundacaja h4{
+    font-size: 15px;
+  }
   .terceracaja{
-     display: none;
-    }
-    .primeracaja img{
-      position: absolute;
-      top: 32%;
-      left: 13%;
-      height: 60%; 
-      width: 75%;
-    }
-    .degradado{
-        height: 100%;
-        position: relative;
-      }
-    }
-     /*5.- Ipad 768*1024 orientacion horizontal*/
+    display: none;
+  }
+  .primeracaja img{
+    position: absolute;
+    top: 32%;
+    left: 13%;
+    height: 60%; 
+    width: 75%;
+  }
+  .degradado{
+    height: 100%;
+    position: relative;
+  }
+}
+  /*5.- Ipad 768*1024 orientacion horizontal*/
 
-     @media screen and (max-width:768px) and (orientation: landscape) {
-        body{
-          margin: 2%;
-        }
-        .fila {
-          margin: 0px;
-        }
-        .fila a {
-          font-size: 75%;
-          padding: 10px 8px;
-        }
-        .cajartprin{
-          width: 95%;
-        }
-        #imagenarticulo{
-          height: 75%;
-          width: 90%;
-        }
-        .tdderecha{
-          padding-left: 5%;
-        }
-        .cajartprin2{
-          width: 95%;
-          height: 100%;
-          margin-left:0%;
-          margin-top: 10px;
-          overflow: visible;
-          float: none;
-        }
-        #imagenarticulo{
-          height: 75%;
-          width: 120%;
-        }
-        #imagenavion{
-          height: 165px; 
-          width: 280px;
-        }
-        .listaiconos li{
-            width:0%;
-            margin-left: 25%;
-            transform: translateX(-50px);
-            font-size: 90%;
-          }
-        .hrverticalazul{
-          display: none;
-        }
-        #noticias{
-          text-align: center;
-      }
-      .articulo1{
-        width: 90%;
-        margin-left: 5%; 
-      }
-      .articulo2{
-        position: relative;
-        left: 4%;
-        width: 40%;
-        margin: 20px;
-      } 
-      .articulo3{
-        position: absolute;
-        left: 50%;
-        top: 1382px;
-        height: 46.5%;
-        width: 38%;
-      } 
-      #hrpequeño{
-        height: 300px;
-        width: 0px;
-        left: 48.5%;
-        top: 1390px;
-      }
-      .primeracaja{
-        width: 90%;
-        margin-left: 5%; 
-    
-    }
-    .segundacaja{
-        width: 70%;
-        padding: 10px 5px;
-        left: 160px;
-        top: 50%;
-      }
-      .segundacaja h4{
-        font-size: 15px;
-      }
-    .terceracaja{
-       display: none;
-      }
-      .primeracaja img{
-        height: 150px; 
-        width: 150px;
-      }
-      .degradado{
-          height: 100%;
-          position: relative;
-        }
-    }
+@media screen and (max-width:768px) and (orientation: landscape) {
+  body{
+    margin: 2%;
+  }
+  .fila {
+    margin: 0px;
+  }
+  .fila a {
+    font-size: 75%;
+    padding: 10px 8px;
+  }
+  .cajartprin{
+    width: 95%;
+  }
+  #imagenarticulo{
+    height: 75%;
+    width: 90%;
+  }
+  .tdderecha{
+    padding-left: 5%;
+  }
+  .cajartprin2{
+    width: 95%;
+    height: 100%;
+    margin-left:0%;
+    margin-top: 10px;
+    overflow: visible;
+    float: none;
+  }
+  #imagenarticulo{
+    height: 75%;
+    width: 120%;
+  }
+  #imagenavion{
+    height: 165px; 
+    width: 280px;
+  }
+  .listaiconos li{
+    width:0%;
+    margin-left: 25%;
+    transform: translateX(-50px);
+    font-size: 90%;
+  }
+  .hrverticalazul{
+    display: none;
+  }
+  #noticias{
+    text-align: center;
+  }
+  .articulo1{
+    width: 90%;
+    margin-left: 5%; 
+  }
+  .articulo2{
+    position: relative;
+    left: 4%;
+    width: 40%;
+    height: 300px;
+    margin: 20px;
+  } 
+  .articulo3{
+    position: relative;
+    float: right;
+    top: 20px;
+    left: -25px;
+    height: 300px;
+    width: 270px;
+  } 
+  #hrpequeño{
+    display: none;
+  }
+  .primeracaja{
+    width: 90%;
+    margin-left: 5%; 
 
-       /*6.- Iphone 414*896 orientacion vertical*/
+  }
+  .segundacaja{
+    width: 68%;
+    padding: 10px 5px;
+    left: 160px;
+    top: 50%;
+  }
+  .segundacaja h4{
+    font-size: 15px;
+  }
+  .terceracaja{
+    display: none;
+  }
+  .primeracaja img{
+    height: 150px; 
+    width: 150px;
+  }
+  .degradado{
+    height: 100%;
+    position: relative;
+  }
+}
 
-   @media screen and (max-width:414px) and (orientation:portrait) {
-    body{
-        margin:2%;
-      }
-      .fila {
-        margin: 0%;
-        float: none;
-      }
-      .fila a {
-        font-size: 85%;
-        display: block;
-      }
-      #fotopersonas{
-          display: none;
-      }
-      .cajartprin{
-        width: 90%;
-        margin-left: 2%;
-        margin-right: 2%;
-      }
-      #imagenarticulo{
-        height: 75%;
-        width: 90%;
-      }
-      .tdderecha{
-        padding-left: 5%;
-      }
-      .cajartprin2{
-        width: 90%;
-        height: 100%;
-        margin-left:2%;
-        margin-right: 2%;
-        margin-top: 10px;
-        overflow: visible;
-        float: none;
-      }
-      #imagenarticulo{
-        height: 75%;
-        width: 100%;
-      }
-      #imagenavion{
-        height: 135px; 
-        width: 240px;
-      }
-      .listaiconos li{
-         display: none;
-        }
-      .hrverticalazul{
-        display: none;
-      }
+/*6.- Iphone 414*896 orientacion vertical*/
+
+@media screen and (max-width:414px) and (orientation:portrait) {
+body{
+    margin:2%;
+  }
+  .fila {
+    margin: 0%;
+    float: none;
+  }
+  .fila a {
+    font-size: 85%;
+    display: block;
+  }
+  #fotopersonas{
+      display: none;
+  }
+  .cajartprin{
+    width: 90%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  #imagenarticulo{
+    height: 75%;
+    width: 90%;
+  }
+  .tdderecha{
+    padding-left: 5%;
+  }
+  .cajartprin2{
+    width: 90%;
+    height: 100%;
+    margin-left:2%;
+    margin-right: 2%;
+    margin-top: 10px;
+    overflow: visible;
+    float: none;
+  }
+  #imagenarticulo{
+    height: 75%;
+    width: 100%;
+  }
+  #imagenavion{
+    height: 135px; 
+    width: 240px;
+  }
+  .listaiconos li{
+      display: none;
     }
-     /* 7.- Iphone 414*896 orientacion horizontal*/
+  .hrverticalazul{
+    display: none;
+  }
+}
+  /* 7.- Iphone 414*896 orientacion horizontal*/
 
-     @media screen and (max-width:414px) and (orientation: landscape) {
-        body{
-          margin: 2%;
-        }
-        .fila {
-          margin: 0px;
-        }
-        .fila a {
-          font-size: 75%;
-          padding: 10px 8px;
-        }
-        .cajartprin{
-          width: 95%;
-        }
-        #imagenarticulo{
-          height: 75%;
-          width: 90%;
-        }
-        .tdderecha{
-          padding-left: 5%;
-        }
-        .cajartprin2{
-          width: 95%;
-          height: 100%;
-          margin-left:0%;
-          margin-top: 10px;
-          overflow: visible;
-          float: none;
-        }
-        #imagenarticulo{
-          height: 75%;
-          width: 120%;
-        }
-        #imagenavion{
-          height: 165px; 
-          width: 280px;
-        }
-        .listaiconos li{
-            width:0%;
-            margin-left: 25%;
-            transform: translateX(-50px);
-            font-size: 90%;
-          }
-        .hrverticalazul{
-          display: none;
-        }
-      }
+@media screen and (max-width:414px) and (orientation: landscape) {
+  body{
+    margin: 2%;
+  }
+  .fila {
+    margin: 0px;
+  }
+  .fila a {
+    font-size: 75%;
+    padding: 10px 8px;
+  }
+  .cajartprin{
+    width: 95%;
+  }
+  #imagenarticulo{
+    height: 75%;
+    width: 90%;
+  }
+  .tdderecha{
+    padding-left: 5%;
+  }
+  .cajartprin2{
+    width: 95%;
+    height: 100%;
+    margin-left:0%;
+    margin-top: 10px;
+    overflow: visible;
+    float: none;
+  }
+  #imagenarticulo{
+    height: 75%;
+    width: 120%;
+  }
+  #imagenavion{
+    height: 165px; 
+    width: 280px;
+  }
+  .listaiconos li{
+      width:0%;
+      margin-left: 25%;
+      transform: translateX(-50px);
+      font-size: 90%;
+    }
+  .hrverticalazul{
+    display: none;
+  }
+}
