@@ -38,12 +38,18 @@ de pantalla grande.*/
   .articulo1{
     width: 760px;
   }
-  .articulo2, .articulo3{
+  .articulo2{
     left: 850px;
     width: 360px;
   } 
+  .articulo3{
+    left: 850px;
+    top: 1000px;
+    width: 360px;
+  }
   #hrpequeño{
-    left: 870px 
+    left: 870px; 
+    top: 975px;
   }
   .primeracaja{
     width: 1150px;
